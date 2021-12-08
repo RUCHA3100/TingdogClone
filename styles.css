@@ -1,0 +1,150 @@
+body{
+  font-family: "Montserrat";
+  margin: 0;
+}
+#title{
+  background-color:#ff4c68;
+  color: #fff;
+}
+h1{
+  font-family:"Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*navigation bar*/
+.navbar{
+  padding-bottom: 2.5rem;
+}
+.navbar-brand{
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  font-weight:normal;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: sans-serif;
+  font-size:1.2rem;
+}
+/*download button*/
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.head{
+  height: 400px;
+}
+/*title image*/
+.title-img{
+  transform: rotate(25deg);
+  width:60% ;   /*it means it is 60 per ot there parent*/
+right: 30%;
+z-index:-999 !important;
+/* position: relative; */
+}
+
+
+/*Section 2 features*/
+#features{
+  /* padding: 7% 15%; */
+background-color: #fff;
+position: relative;
+z-index: 111 ;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+h3{
+  font-family:"Montserrat";
+
+}
+p{
+  color:grey;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+
+/*testimonials*/
+#testimonials{
+  padding: 7% 15%;
+  background-color:#ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight:normal;
+  font-size:3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+ width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*press section*/
+#press{
+background-color:#ef8172;
+text-align: center;
+padding-bottom: 5%;
+}
+.p-img{
+margin: 20px 20px 50px;
+width:15%;
+}
+
+
+/*pricing section8*/
+#pricing{
+padding: 100px;
+text-align:center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/*call to action*/
+
+#cta{
+  background-color:#ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 4% 13%;
+
+}
+h4{
+  padding: 40px;
+  font-size:3rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/*footer section*/
+#footer{
+  text-align: center;
+  padding-top:5%;
+  padding-bottom: 18%;
+}
+.foot{
+  color: #000;
+}
+.ico{
+  padding: 2%;
+}
